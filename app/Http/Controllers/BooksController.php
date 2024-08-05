@@ -612,7 +612,7 @@ class BooksController extends Controller
             ], 400);
         }
         // delete related   
-        $authorbooks = AuthorsBooks::where('book_id', $book->id)->delete();        
+        $authorbooks = AuthorsBooks::where('books_id', $book->id)->delete();        
 
         $book->delete();
         return response()->json([
