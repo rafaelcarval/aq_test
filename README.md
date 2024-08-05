@@ -59,7 +59,7 @@ chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 ```
 
 Acessar o projeto - api Swagger via auto scan
-[http://localhost/api-docs-ui#//](http://localhost/api-docs-ui#/)
+[http://localhost/api-docs-ui#/](http://localhost/api-docs-ui#/)
 
 
 
