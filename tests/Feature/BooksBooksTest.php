@@ -63,7 +63,7 @@ class BooksBooksTest extends TestCase
         $this->assertIsObject($this->response);
         $this->assertTrue(isset($this->response->data));
         
-        $data = $this->response->data;
+        $data = $this->response->data; 
         $this->assertIsObject($data);
         
         $requiredFields = ['id', 'title', 'year', 'created_at', 'updated_at', 'deleted_at', 'authorsbook'];

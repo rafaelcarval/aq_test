@@ -30,7 +30,7 @@ class AuthorRegisterTest extends TestCase
         $this->responseTime = 450; // Valor simulado
     }
 
-    public function testResponseStatusIs200()
+    public function testResponseStatusIs200() 
     {
         // Suponha que a resposta tenha um código de status
         $statusCode = 200; // Valor simulado

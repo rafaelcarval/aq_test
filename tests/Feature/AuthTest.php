@@ -16,7 +16,7 @@ class AuthTest extends TestCase
         $responseJson = '{
             "status": "success",
             "user": {
-                "id": 1,
+                "id": 1, 
                 "name": "John Doe",
                 "email": "john.doe@example.com",
                 "created_at": "2021-01-01T00:00:00Z",

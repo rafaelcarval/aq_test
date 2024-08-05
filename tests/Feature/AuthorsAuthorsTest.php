@@ -13,7 +13,7 @@ class AuthorsAuthorsTest extends TestCase
     private $statusCode;
 
     protected function setUp(): void
-    {
+    { 
         // Simulação de resposta da API em formato JSON
         $responseJson = '{
             "data": [

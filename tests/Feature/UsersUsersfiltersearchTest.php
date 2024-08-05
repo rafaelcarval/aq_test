@@ -18,9 +18,9 @@ class UsersUsersfiltersearchTest extends TestCase
         $responseJson = '{
             "data": [
                 {
-                    "id": 1,
+                    "id": 1, 
                     "name": "John Doe",
-                    "email": "john.doe@example.com",
+                    "email": "john.doe@example.com", 
                     "email_verified_at": null,
                     "created_at": "2021-01-01T00:00:00Z",
                     "updated_at": "2021-01-01T00:00:00Z"

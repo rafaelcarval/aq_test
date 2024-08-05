@@ -21,7 +21,7 @@ class UserTest extends TestCase
                 "name": "John Doe",
                 "email": "john.doe@example.com",
                 "created_at": "2021-01-01T00:00:00Z",
-                "updated_at": "2021-01-01T00:00:00Z"
+                "updated_at": "2021-01-01T00:00:00Z" 
             },
             "authorisation": {
                 "token": "abc123",

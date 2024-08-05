@@ -13,7 +13,7 @@ class AuthorsUpdateTest extends TestCase
     private $headers;
 
     protected function setUp(): void
-    {
+    { 
         // Simulação de resposta da API em formato JSON
         $responseJson = '{
             "author": {

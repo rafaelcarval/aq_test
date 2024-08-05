@@ -34,7 +34,7 @@ class UserMeTest extends TestCase
     {
         // Suponha que a resposta tenha um código de status
         $statusCode = 200; // Valor simulado
-        $this->assertEquals(200, $statusCode);
+        $this->assertEquals(200, $statusCode); 
     }
 
     public function testResponseTimeIsWithinAcceptableRange()

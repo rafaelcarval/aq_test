@@ -21,7 +21,7 @@ class UserUsersTest extends TestCase
                     "email": "john.doe@example.com",
                     "email_verified_at": "2021-01-01T00:00:00Z",
                     "created_at": "2021-01-01T00:00:00Z",
-                    "updated_at": "2021-01-01T00:00:00Z"
+                    "updated_at": "2021-01-01T00:00:00Z" 
                 },
                 {
                     "id": 2,

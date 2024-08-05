@@ -16,7 +16,7 @@ class BooksUpdateTest extends TestCase
         // Simulação de resposta da API em formato JSON
         $responseJson = '{
             "status": true,
-            "message": "Operation successful",
+            "message": "Operation successful", 
             "book": {
                 "title": "The Great Gatsby",
                 "author": "F. Scott Fitzgerald"

@@ -12,7 +12,7 @@ class AuthorsDeleteTest extends TestCase
     private $statusCode;
 
     protected function setUp(): void
-    {
+    { 
         // Simulação de resposta da API em formato JSON
         $responseJson = '{
             "status": true,
