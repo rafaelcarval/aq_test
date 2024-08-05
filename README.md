@@ -42,7 +42,7 @@ Gerar as migrations
 php artisan migrate
 ```
 
-Gerar o primeiro usuário
+Gerar o primeiro usuário (irá aparecer como exemplo na documentação)
 ```sh
 php artisan db:seed
 ```
