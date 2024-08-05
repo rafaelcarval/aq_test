@@ -13,12 +13,14 @@ class SendEmailTest extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $user;
+
     /**
      * Create a new message instance.
      */
     public function __construct()
     {
-        //
+        // No parameters needed
     }
 
     /**

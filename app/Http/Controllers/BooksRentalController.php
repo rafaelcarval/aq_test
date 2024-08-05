@@ -45,9 +45,13 @@ class BooksRentalController extends Controller
      *     @OA\RequestBody(
      *         @OA\MediaType(
      *             mediaType="application/json",
-     *             @OA\Schema( required={"users_id", "rent_date", "return_date"},
+     *             @OA\Schema( required={"users_id", "books_id", "rent_date", "return_date"},
      *                 @OA\Property(
      *                     property="users_id",
+     *                     type="int"
+     *                 ),
+     *                @OA\Property(
+     *                     property="books_id",
      *                     type="int"
      *                 ),
      *                 @OA\Property(
@@ -58,7 +62,7 @@ class BooksRentalController extends Controller
      *                     property="return_date",
      *                     type="date"
      *                 ),
-     *                 example={"users_id": "Rafael", "rent_date": "1977-10-17", "return_date": "1977-10-17"}
+     *                 example={"users_id": 1, "books_id": 1, "rent_date": "1977-10-17", "return_date": "1977-10-17"}
      *             )
      *         )
      *     ),          
@@ -88,9 +92,11 @@ class BooksRentalController extends Controller
      *                     example={
      *                         "status": "success",
      *                         "message": "Rental created successfully",
-     *                         "user": {
-     *                             "name": "Rafael",
-     *                             "birthday": "1977-10-17",
+     *                         "rental": {
+     *                             "users_id": 1,
+     *                             "books_id": 1,
+     *                             "rent_date": "1977-10-17",
+     *                             "return_date": "1977-10-17",
      *                             "updated_at": "2024-08-04T13:19:08.000000Z",
      *                             "created_at": "2024-08-04T13:19:08.000000Z",
      *                             "id": 5
@@ -161,8 +167,8 @@ class BooksRentalController extends Controller
     public function register(Request $request){
 
         $request->validate([
-            'users_id' => 'required|string|max:255',
-            'books_id' => 'required|string|max:255',
+            'users_id' => 'required|int|max:255',
+            'books_id' => 'required|int|max:255',
             'rent_date' => 'required|date',
             'return_date' => 'required|date'
         ]);
