@@ -1,15 +1,14 @@
-
-# Teste Febrapar
+# Teste Aq
 
 Objetivo: O desafio é desenvolver um sistema de gerenciamento de tarefas.
 
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/rafaelcarval/aqbank_test
+git clone https://github.com/rafaelcarval/aq_test
 ```
 ```sh
-cd aqbank_test/
+cd aq_test/
 ```
 Crie o Arquivo .env
 ```sh
@@ -69,6 +68,3 @@ Testes unitários
 ```sh
 php artisan test
 ```
-
-
-Além dos testes unitários, disponibilizei via e-mail a collection do postman com testes completos
