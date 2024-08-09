@@ -1,6 +1,6 @@
-# Teste Aq
+# Library Laravel
 
-Objetivo: O desafio é desenvolver um sistema de gerenciamento de tarefas.
+Objetivo: Estudo sobre relacionamentos de tabelas em Laravel usando Illuminate\Database\Eloquent\Relations.
 
 ### Passo a passo
 Clone Repositório
