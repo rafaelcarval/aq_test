@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Books;
 use App\Models\AuthorsBooks;
+use App\Models\Authors;
 use Illuminate\Http\Request;
 
 class BooksController extends Controller
@@ -454,6 +455,11 @@ class BooksController extends Controller
     {
         
         $books = Books::with('authorsbook')->find(1);
+
+        foreach ($books->authorsbook as $key => $value) {    
+            $books->authorsbook[$key] = Authors::find($value->authors_id);
+        }
+
         return response()->json([
             'status' => true,
             'message' => 'Get Books Successfully',

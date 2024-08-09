@@ -23,12 +23,22 @@ class AuthorsBooks extends Model
         'authors_id',
     ];
 
-    public function authors(): HasOne
+    public function authors(): BelongsTo
     {
-        return $this->hasOne(Authors::class);
+        return $this->belongsTo(Authors::class);
     }
 
-    public function books(): HasOne
+    public function books(): BelongsTo
+    {
+        return $this->belongsTo(Books::class);
+    }
+
+    public function authorsMany(): hasHasMany
+    {
+        return $this->hasHasMany(Authors::class);
+    }
+
+    public function booksOne(): HasOne
     {
         return $this->HasOne(Books::class);
     }
