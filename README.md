@@ -23,7 +23,7 @@ docker-compose up -d
 
 Acessar o container
 ```sh
-docker-compose exec app bash
+docker-compose exec app bash {nome do container php (docker ps)}
 ```
 
 
