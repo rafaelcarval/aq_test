@@ -13,7 +13,7 @@ use Illuminate\Routing\Controller as BaseController;
  *     basePath="api",
  *     @OA\Info(
  *         version="1.0.0",
- *         title="API Aqbank",
+ *         title="Documentação",
  *         description="Nossa **API** oferece as principais funcionalidades para o fluxo de um cadastro de um livro e seus autores. ",
  *         @OA\Contact(
  *             email="rafael.frotac@gmail.com"

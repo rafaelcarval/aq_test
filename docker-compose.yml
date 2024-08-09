@@ -1,5 +1,6 @@
 services:
   nginx:
+    container_name: nginx
     build:
       context: ./nginx
     volumes:
@@ -14,6 +15,7 @@ services:
       - aqbank-network
 
   php:
+    container_name: php
     build:
       context: ./php
     volumes:
