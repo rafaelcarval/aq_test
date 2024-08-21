@@ -5,10 +5,10 @@ Objetivo: Estudo sobre relacionamentos de tabelas em Laravel usando Illuminate\D
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/rafaelcarval/aq_test
+git clone https://github.com/rafaelcarval/library_laravel_estudo
 ```
 ```sh
-cd aq_test/
+cd library_laravel_estudo/
 ```
 Crie o Arquivo .env
 ```sh
